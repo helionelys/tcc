@@ -1,22 +1,22 @@
 package model;
     public class Cliente {
-        private int codcliente;
+        private int codCliente;
         private String nome;
         private String logradouro;
         private String numero;
         private String bairro;
         private String email;
         private int ddd;
-        private String numtelefone;
+        private String numTelefone;
         private boolean status;
         private int codcidade;
 
-    public int getCodcliente() {
-        return codcliente;
+    public int getCodCliente() {
+        return codCliente;
     }
 
-    public void setCodcliente(int codcliente) {
-        this.codcliente = codcliente;
+    public void setCodCliente(int codCliente) {
+        this.codCliente = codCliente;
     }
 
     public String getNome() {
@@ -67,12 +67,12 @@ package model;
         this.ddd = ddd;
     }
 
-    public String getNumtelefone() {
-        return numtelefone;
+    public String getNumTelefone() {
+        return numTelefone;
     }
 
-    public void setNumtelefone(String numtelefone) {
-        this.numtelefone = numtelefone;
+    public void setNumTelefone(String numTelefone) {
+        this.numTelefone = numTelefone;
     }
 
     public boolean isStatus() {
@@ -90,6 +90,5 @@ package model;
     public void setCodcidade(int codcidade) {
         this.codcidade = codcidade;
     }
-        
-        
+    
 }
