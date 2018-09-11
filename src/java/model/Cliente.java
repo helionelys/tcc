@@ -8,8 +8,8 @@ package model;
         private String email;
         private int ddd;
         private String numTelefone;
-        private boolean status;
-        private int codcidade;
+        private boolean statusAtivo;
+        private int codCidade;
 
     public int getCodCliente() {
         return codCliente;
@@ -75,20 +75,19 @@ package model;
         this.numTelefone = numTelefone;
     }
 
-    public boolean isStatus() {
-        return status;
+    public boolean isStatusAtivo() {
+        return statusAtivo;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setStatusAtivo(boolean statusAtivo) {
+        this.statusAtivo = statusAtivo;
     }
 
-    public int getCodcidade() {
-        return codcidade;
+    public int getCodCidade() {
+        return codCidade;
     }
 
-    public void setCodcidade(int codcidade) {
-        this.codcidade = codcidade;
+    public void setCodCidade(int codCidade) {
+        this.codCidade = codCidade;
     }
-    
-}
+ }
